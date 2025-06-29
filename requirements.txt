@@ -1,0 +1,8 @@
+fastapi
+python-multipart
+uvicorn
+python-docx
+PyPDF2
+google.generativeai
+Pillow
+jinja2
