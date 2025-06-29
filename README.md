@@ -95,22 +95,3 @@ Ensure you have the following installed:
 
 ---
 
-## Future Improvements
-
-- Add support for OCR to process text from images.
-- Implement user authentication.
-- Save summaries for future reference.
-
----
-
-
-## Author
-
-- **For questions or feedback, please contact** - [umdn1030@gmaiil.com]
-
----
-
-## Contributing
-
-Contributions are welcome! Feel free to open issues or submit pull requests.
-
