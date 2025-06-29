@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document Summarizer</title>
+    <link rel="stylesheet" href="/static/style.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="head">
+                <h1>Document Summarizer</h1>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <h1>Instant Document Summarization</h1>
+        <form action="/summarize" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" id="file" accept=".pdf,.docx,.txt,.image/*">
+            <input type="submit" value="Summarize" name="Summarize">
+        </form>
+    </div>
+
+    <footer>
+        <p>Document Summarizer: A web application powered by FastAPI and Google Generative AI for automatic document summarization.</p>
+    </footer>
+</body>
+</html>
